@@ -31,8 +31,5 @@
       "~> 4.2"
     ]
   },
-  "resources": [
-    "photo.xcassets"
-  ],
   "swift_version": "5.0"
 }
