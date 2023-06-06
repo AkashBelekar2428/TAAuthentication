@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.dependency 'Alamofire', '~> 5.4'
   s.dependency 'SVProgressHUD'
   s.dependency 'ObjectMapper', '~> 4.2'
-  s.resources = ['photos.xcassets']
+  s.resources = ['Photos.xcassets']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
