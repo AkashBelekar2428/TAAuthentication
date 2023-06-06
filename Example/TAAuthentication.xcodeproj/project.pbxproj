@@ -39,9 +39,9 @@
 		607FACE51AFB9204008FA782 /* TAAuthentication_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAAuthentication_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61277B23291AB1DAF7CA9A99 /* TAAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TAAuthentication.podspec; path = ../TAAuthentication.podspec; sourceTree = "<group>"; };
-		7ECABCC05128C1E29A59B7B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7FD33F50BC513190089B85EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		61277B23291AB1DAF7CA9A99 /* TAAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TAAuthentication.podspec; path = ../TAAuthentication.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7ECABCC05128C1E29A59B7B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7FD33F50BC513190089B85EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8181BA8CB718FF4BA20490CB /* Pods-TAAuthentication_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAAuthentication_Example.debug.xcconfig"; path = "Target Support Files/Pods-TAAuthentication_Example/Pods-TAAuthentication_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82FB67BF451430E44AA69596 /* Pods-TAAuthentication_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAAuthentication_Tests.release.xcconfig"; path = "Target Support Files/Pods-TAAuthentication_Tests/Pods-TAAuthentication_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F7D633D2F116A9D0B164B97 /* Pods-TAAuthentication_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAAuthentication_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TAAuthentication_Tests/Pods-TAAuthentication_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				8F7D633D2F116A9D0B164B97 /* Pods-TAAuthentication_Tests.debug.xcconfig */,
 				82FB67BF451430E44AA69596 /* Pods-TAAuthentication_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

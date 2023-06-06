@@ -1,0 +1,6 @@
+framework module Pods_TAAuthentication_Tests {
+  umbrella header "Pods-TAAuthentication_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

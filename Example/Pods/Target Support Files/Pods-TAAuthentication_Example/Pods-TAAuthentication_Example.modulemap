@@ -1,0 +1,6 @@
+framework module Pods_TAAuthentication_Example {
+  umbrella header "Pods-TAAuthentication_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

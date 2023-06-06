@@ -1,0 +1,6 @@
+framework module TAAuthentication {
+  umbrella header "TAAuthentication-umbrella.h"
+
+  export *
+  module * { export * }
+}
