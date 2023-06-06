@@ -1,16 +1,34 @@
 PODS:
-  - TAAuthentication (0.1.0)
+  - Alamofire (5.7.1)
+  - ObjectMapper (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - TAAuthentication (1.1.0):
+    - Alamofire (~> 5.4)
+    - ObjectMapper (~> 4.2)
+    - SVProgressHUD
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - ObjectMapper (~> 4.2)
+  - SVProgressHUD
   - TAAuthentication (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   TAAuthentication:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TAAuthentication: 4543fc36a12b73cfa98b8565a775551966bd4fc0
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TAAuthentication: 1656dafab9144f09e0d6dbae5615fc75af0a0de6
 
-PODFILE CHECKSUM: 677f46290193f40cc441029786a53350c8b31c96
+PODFILE CHECKSUM: ca268339579398c01ee7d2db3958f134b0310548
 
 COCOAPODS: 1.12.1

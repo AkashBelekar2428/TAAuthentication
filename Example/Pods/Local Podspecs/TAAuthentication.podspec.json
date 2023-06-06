@@ -1,8 +1,8 @@
 {
   "name": "TAAuthentication",
-  "version": "0.1.0",
-  "summary": "A short description of TAAuthentication.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.1.0",
+  "summary": "Simple Library of TAAuthentication.",
+  "description": "'Easy To use, We are Provide UI With Remote Layer'",
   "homepage": "https://github.com/akashbelekar2428/TAAuthentication",
   "license": {
     "type": "MIT",
@@ -13,10 +13,26 @@
   },
   "source": {
     "git": "https://github.com/akashbelekar2428/TAAuthentication.git",
-    "tag": "0.1.0"
+    "tag": "1.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "TAAuthentication/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Source/**/*.{swift,xib,xcassets}",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.4"
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "ObjectMapper": [
+      "~> 4.2"
+    ]
+  },
+  "resources": [
+    "photo.xcassets"
+  ],
+  "swift_version": "5.0"
 }
