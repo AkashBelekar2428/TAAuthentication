@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PINView" customModule="MFUIAthentication" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PINView" customModule="TAAuthentication" customModuleProvider="target">
             <connections>
                 <outlet property="bgViewVerifyPin" destination="qh7-XP-0Sl" id="jrn-vV-YpY"/>
                 <outlet property="btnResendPin" destination="hgV-u0-0vU" id="7O5-VT-8JA"/>
@@ -39,8 +39,9 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RpR-XQ-SmJ">
                     <rect key="frame" x="30" y="59" width="481" height="450"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uYo-8v-G4m">
-                            <rect key="frame" x="0.0" y="20" width="150" height="50"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="figure.run" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uYo-8v-G4m">
+                            <rect key="frame" x="0.0" y="20.333333333333336" width="150" height="50.000000000000007"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="150" id="Sab-zV-NES"/>
                                 <constraint firstAttribute="height" constant="50" id="aSy-C2-MPT"/>
@@ -260,6 +261,7 @@
         </view>
     </objects>
     <resources>
+        <image name="figure.run" catalog="system" width="115" height="128"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

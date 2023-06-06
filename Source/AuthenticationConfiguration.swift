@@ -27,6 +27,7 @@ public class AuthenticationConfiguration{
     public var containerViewShow = TAUIView()
     public var countryCodeBtn = TAButton()
     public var color = TAColor()
+    public var emailIcon = TALable()
     
     
     //MARK: PIN variables

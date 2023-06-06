@@ -151,7 +151,7 @@ public class Email_Address: UIView{
         
         setThemsForView(view: viewTfEmail, config: config.tfView)
         
-        setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
+      //  setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
         
         setThemsForLabel(lbl: lblLogin, config: config.loginLbl)
         

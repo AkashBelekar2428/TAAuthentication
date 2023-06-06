@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		AE61CCB62A2F30EF0060F1B6 /* authentication_font_file.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE61CCB52A2F30E20060F1B6 /* authentication_font_file.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8181BA8CB718FF4BA20490CB /* Pods-TAAuthentication_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAAuthentication_Example.debug.xcconfig"; path = "Target Support Files/Pods-TAAuthentication_Example/Pods-TAAuthentication_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82FB67BF451430E44AA69596 /* Pods-TAAuthentication_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAAuthentication_Tests.release.xcconfig"; path = "Target Support Files/Pods-TAAuthentication_Tests/Pods-TAAuthentication_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F7D633D2F116A9D0B164B97 /* Pods-TAAuthentication_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAAuthentication_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TAAuthentication_Tests/Pods-TAAuthentication_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE61CCB52A2F30E20060F1B6 /* authentication_font_file.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = authentication_font_file.ttf; sourceTree = "<group>"; };
 		EA7FEE374A24FFF01D561C0E /* Pods-TAAuthentication_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAAuthentication_Example.release.xcconfig"; path = "Target Support Files/Pods-TAAuthentication_Example/Pods-TAAuthentication_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FE9C85907FFC16AC88701F80 /* Pods_TAAuthentication_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAAuthentication_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AE61CCB52A2F30E20060F1B6 /* authentication_font_file.ttf */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				AE61CCB62A2F30EF0060F1B6 /* authentication_font_file.ttf in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

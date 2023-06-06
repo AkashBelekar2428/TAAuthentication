@@ -275,7 +275,7 @@ public class PINView: UIView {
         containerView.TAViewHeight = 350
         
         //MARK: Config Logo
-        imgLogo.TAImageLogo = UIImage(named: "") ?? #imageLiteral(resourceName: "logo2")
+        //imgLogo.TAImageLogo = UIImage(named: "") ?? #imageLiteral(resourceName: "logo2")
         
         //MARK: Config Login Label
         lblLogin.TAText = "Login"
@@ -336,7 +336,7 @@ public class PINView: UIView {
       
         setThemsForLabel(lbl: lblLogin, config: config.loginLbl)
         
-        setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
+       // setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
                 
         setThemsForLabel(lbl: lblPinDescription, config: config.pinDescription)
         

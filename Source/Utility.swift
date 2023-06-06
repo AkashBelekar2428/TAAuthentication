@@ -57,6 +57,14 @@ public let countryArray = ["+1","+44","+91"]
 
 
 
+// MARK: Font Icons
+
+let Icon_mail = "\u{e908}"
+let Icon_eye = "\u{e906}"
+let Icon_eye_off = "\u{e905}"
+let Icon_down_arrow = "\u{e901}"
+
+
 
 
 // MARK: Theme method's for UI Element's

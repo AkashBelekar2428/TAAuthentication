@@ -160,7 +160,7 @@ public class Mobile_Number:UIView {
     //MARK: Set Configurations
     public func setThemeWithMobileConfiguration(config:AuthenticationConfiguration){
                 
-        setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
+      //  setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
 
         setThemsForLabel(lbl: lblLogin, config: config.loginLbl)
 

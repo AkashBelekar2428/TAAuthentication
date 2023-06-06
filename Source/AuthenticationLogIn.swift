@@ -194,7 +194,9 @@ public class AuthenticationLogIn: UIView{
     //MARK: Set Configurations
     public func setThemWithAuthConfiguration(config:AuthenticationConfiguration){
         
-        setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
+        setThemsForLabel(lbl: lblEmailIcon, config: config.emailIcon)
+        
+        //setThemsForHeaderViewImageORLogo(img: imgLogo, config: config.logoImage)
         
         setThemsForLabel(lbl: lblLogin, config: config.loginLbl)
         
