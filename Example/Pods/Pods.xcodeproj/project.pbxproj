@@ -88,6 +88,7 @@
 		A523488C60BF961290D0B1ABB9ADACEC /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9B39E4B192B3338C44016D74E0E623 /* RequestCompression.swift */; };
 		A8B21370BB52CC1699F2DC5A591F05D5 /* TAUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C159266AE275785585F8523528D4D /* TAUIView.swift */; };
 		AA721ECC2B36AFB7D9FE70C83E6D63F9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A89749D3DC2B790BDE6A34D0AF3A58 /* Response.swift */; };
+		AEE95B942A2F0F24001DD431 /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE95B932A2F0F24001DD431 /* Photos.xcassets */; };
 		B17D933C8F8BC6A4F91AA620D7D7A870 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A68BAEF215CBE3A4A49803E78FE78F /* ParameterEncoder.swift */; };
 		B43B118A2EBEA4974052F12F614C13C6 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB65DDF0128D5EAC20E339C3FDC9E3 /* ObjectMapper-dummy.m */; };
 		B449DA71AEEF878482A26399CA9568D3 /* CodableTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DDF2D88BC866767EA6DAE1A2C5AEC /* CodableTransform.swift */; };
@@ -302,6 +303,7 @@
 		AD1F6394F39644B85A6936E6D6C9FC52 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
 		AD594EEF213E56CDB21589211B53E7CF /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
 		AD78DB79F3C058FF7530861D4F17C535 /* TAAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAAuthentication-umbrella.h"; sourceTree = "<group>"; };
+		AEE95B932A2F0F24001DD431 /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
 		AF9FEC928432A9798B23F9D276444209 /* TAImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TAImage.swift; path = Source/TAImage.swift; sourceTree = "<group>"; };
 		AFC2F6AB5B08CEF380E1F3E855055CCC /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		B14324A367732AB6707B42A3CEE1646A /* ObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.debug.xcconfig; sourceTree = "<group>"; };
@@ -453,6 +455,7 @@
 				DCDD10D041699FA61080C341D578D908 /* ValidationManager.swift */,
 				82430B2785BF8EE14E60AE8177A537B0 /* WSHelper.swift */,
 				99CCBDE386977F9C51DEC84A5B23398A /* WsHelperProtocol.swift */,
+				AEE95B932A2F0F24001DD431 /* Photos.xcassets */,
 				CFF3545C065DCBA1F97545112CD09861 /* Pod */,
 				5382D00DF0262D9B58494D390B3A98BE /* Support Files */,
 			);
@@ -972,6 +975,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE95B942A2F0F24001DD431 /* Photos.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
